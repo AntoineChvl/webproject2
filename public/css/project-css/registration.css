@@ -1,0 +1,22 @@
+#loginForm
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#passwordMismatch {
+    color: red;
+    display: none;
+    text-align: center;
+}
+
+#passwordMatch{
+    color: green;
+    display: none;
+    text-align: center;
+}
+
+#inscriptionButton
+{
+    margin-top: 1%;
+}
