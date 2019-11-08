@@ -32,9 +32,20 @@ nav
     width: 100%;
 }
 
+#school_logo
+{
+    margin-right: 1%;
+}
+
 #navbarText a:hover, .eventsDropdown button:hover
 {
     color: #FFC252;
+}
+
+#navbarEventDropdown a
+{
+    background-color: white;
+    color: black;
 }
 
 #toggle_button
@@ -49,11 +60,23 @@ nav
     flex-direction: row;
 }
 
-#navbarUl li a
+#navbarUl li a, #dropdownMenuButton
 {
     justify-content: center;
     color: white;
     align-items: center;
+    border-right: solid white;
+}
+
+#navbarUl li a:hover, #dropdownMenuButton:hover
+{
+    background-color:  #FFC252;
+    color: black;
+}
+
+#dropdownMenuButton
+{
+    height: 100%;
 }
 
 .eventsDropdown

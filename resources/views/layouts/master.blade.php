@@ -20,7 +20,7 @@
 
 <!-- Navbar -->
 <nav class="navbar navbar-dark bg-dark sticky-top navbar-expand-lg">
-<!-- <img src="{{ asset('assets/imgs/cesi_logo.png') }}" alt="Logo de l'école d'ingénieurs CESI" id="school_logo"> -->
+    <img src="{{ asset('assets/imgs/cesi_logo.png') }}" alt="Logo de l'école d'ingénieurs CESI" id="school_logo">
     <a class="navbar-brand" href="/" id="navTitle">Bureau des élèves - Saint-Nazaire</a>
     <button class="navbar-toggler" id="toggle_button" type="button" data-toggle="collapse" data-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +36,7 @@
             </li>
             <li class="nav-item dropdown">
 
-                    <button class="btn dropdown-toggle eventsDropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn dropdown-toggle eventsDropdown rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Évènements
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="navbarEventDropdown">
