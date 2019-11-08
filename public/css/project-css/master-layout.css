@@ -1,0 +1,86 @@
+body
+{
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    //background-color: lightblue;
+}
+
+#main-wrapper
+{
+    background-color: white;
+}
+
+#main-wrapper img
+{
+    width: 100%;
+}
+
+p
+{
+    text-align: justify;
+}
+
+li
+{
+    color: white
+}
+
+
+nav
+{
+    background-color: black;
+    width: 100%;
+}
+
+#navbarText a:hover, .eventsDropdown button:hover
+{
+    color: #FFC252;
+}
+
+#toggle_button
+{
+    color: white;
+}
+
+#navbarUl ul
+{
+
+    display: flex;
+    flex-direction: row;
+}
+
+#navbarUl li a
+{
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+
+.eventsDropdown
+{
+    color: white;
+}
+
+#navTitle
+{
+    color: #FFC252;
+}
+
+footer
+{
+    background-color: black;
+
+}
+
+footer .row
+{
+    display: flex;
+}
+
+footer p
+{
+    vertical-align: center;
+    text-align: center;
+    color: white;
+}
+
